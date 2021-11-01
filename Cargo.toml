@@ -1,0 +1,16 @@
+[package]
+name = "gud"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libipld = "0.12.0"
+clap = "2.33.3"
+# ipfs-embed = "0.22.4"
+ipfs-api-backend-hyper = "0.2"
+libp2p = "0.40.0"
+git2 = "0.13.23"
+log = "0.4.14"
+stderrlog = "0.5.1"
